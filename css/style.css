@@ -1,0 +1,190 @@
+body{
+    background-color:black ;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+h1{
+    color:white;
+}
+
+p{
+    color:white;
+}
+
+/* Окрашивание тегов закончено */
+
+.page-adventure{
+    position:relative;
+}
+
+
+.logo{
+    display:inline-flex;
+    padding: 0 0;
+    width: 70px;
+    height: 74px;
+    margin-left: 90px;
+}
+
+.nav{
+    display:inline-flex;
+    list-style-type: none;
+   
+}
+
+li{
+    border-bottom: 2px solid white;
+}
+
+li>a{
+    margin:0 45px;
+    font-size: 40px;
+}
+
+
+
+li:hover {
+    border-bottom: 2px solid gray;
+}
+
+.text > h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 165px;
+    margin: 72px 85px;
+    margin-bottom: 30px;
+}
+
+.text > p{
+    width: 800px;
+    font-size: 23px;
+    margin: 0 85px;
+}
+
+.btn-explore{
+    margin: 70px 85px;
+    background-color: black;
+}
+
+.btn-explore>.btn1{
+    position: absolute;
+    z-index: 1;
+}
+
+.btn1:hover{
+    display: none;
+    background: url(../img/btn2.png);
+    background-size: 415px 110px;
+}
+
+
+.btn-explore>img{
+    width: 415px;
+}
+
+
+.btn-explore>span{
+    position: absolute;
+    width: 262px;
+
+    font-size: 37px;
+    font-weight: 700;
+    margin: 30px;
+    z-index: 2;
+}
+
+.btn-explore:hover span{
+    color: white;
+}
+
+
+/* Картинки */
+
+.nature{
+    width:1080px;  
+    position:absolute;
+    margin-left: 1000px;
+}
+
+
+.ppgg{
+    display: none;
+}
+
+@media (max-width:700px){
+    .ppgg{
+        display: block;
+    }
+}
+
+.image{
+    width:100px;
+    height:100px;
+}
+
+
+
+.white{
+    background-image: url(../img/refs.png);
+    background-size: 657px;
+    position: relative;
+    background-repeat: no-repeat;
+    width:655px;
+    height:333px;
+    margin-top:71px;
+}
+
+.youtube{
+    background-image: url(../img/youtube.png);
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+
+}
+
+.twitter{
+    background-image: url(../img/twitter.png);
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    margin-left:30px;
+ 
+}
+
+.facebook{
+    background-image: url(../img/facebook.jpg);
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    margin-left:31px;
+
+}
+
+.instagram{
+    background-image: url(../img/instagram.png);
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    margin-left:36px;
+}
+
+.white-nav{
+    display:inline-flex;
+    list-style-type: none;
+    margin-top: 183px;
+    margin-left:49px;
+}
+
+.final{
+    font-size: 15px;
+    text-align: start;
+    border-top-style: solid;
+    
+    padding: 5px 0px 15px 0px;
+}
+
+
